@@ -217,7 +217,7 @@ Evaluation of your submission will be based on the following criteria.
 1. Did you separate any concerns in your application? Why or why not?
 1. Does your solution use appropriate data types for the problem as described?
 
-#How to Run:
+# How to Run:
 
 Dependencies: Please ensure Flask is installed, if not please install Flask in the directory where run.py file is present
 
@@ -230,3 +230,8 @@ Use the following steps to run the code:
 6. When the file is uploaded, you can press "Get Report" to redirected to a different page with the payroll report in JSON file
 7. The payroll report will contain all the payroll data on all the files uploaded in the "uploads" folder.
 8. When no files are present, it will show a empty JSON report
+
+# Answers:
+1. I was able to create multiple files with csv to upload. I created a second file with an existing employeeId but with new period to see how it would merge. It passed my test case. I was also able to rest with various different entries of the file. I finally tested the upload and displaying of the JSON file, by uploading duplicate files it also passed the test case by giving me an error that the file already exists. 
+2. I would make a few changes. The one major change I would make is if there are no files present I would be be showing an message that says "No files present" rather than actually showing an empty JSON. One feature I would also like to add to this is to display the files that are currently uploaded on the front end so that the user can see which files are already uploaded, that can be very handy for user to ensure duplicates are not uploaded.
+3. One major compromise I had to make due to time constraints is the checking for the file name. As of now the files that are presnet only accept CSV, although with time constraints I was only able to ensure the file type accepted would be of csv. Another compromise I had to make was to ensure the payroll dates is tha ta given date is not a leapyear. I had to make the assumption that all the record dates fall in a non-leap year, so that during the leap years correct last date is present on the payperiod for February. 
