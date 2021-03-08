@@ -217,7 +217,7 @@ Evaluation of your submission will be based on the following criteria.
 1. Did you separate any concerns in your application? Why or why not?
 1. Does your solution use appropriate data types for the problem as described?
 
-#How to Run:
+# How to Run:
 
 Dependencies: Please ensure Flask is installed, if not please install Flask in the directory where run.py file is present
 
