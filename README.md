@@ -231,7 +231,6 @@ Use the following steps to run the code:
 7. The payroll report will contain all the payroll data on all the files uploaded in the "uploads" folder.
 8. When no files are present, it will show a empty JSON report
 
-Note: The existing time-report-42 file is already present, thus pressing create report will show the JSON for that file.
 
 # Answers:
 1. I was able to create multiple files with csv to upload. I created a second file with an existing employeeId but with new period to see how it would merge. It passed my test case. I was also able to rest with various different entries of the file. I finally tested the upload and displaying of the JSON file, by uploading duplicate files it also passed the test case by giving me an error that the file already exists. 
