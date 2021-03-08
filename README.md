@@ -227,9 +227,11 @@ Use the following steps to run the code:
 3. The run command wil provide a http local ip address, copy that and paste it in the browser
 4. The front end is in plain HTML, with 3 buttons, "Choose file", "Upload" and "Get Report"
 5. Choose the file to upload and press Upload, the file will only accept .csv format
-6. When the file is uploaded, you can press "Get Report" to redirected to a different page with the payroll report in JSON file
+6. When the file is uploaded, you can press "Get Report" to redirected to a different page with the payroll report in JSON file(Press back on browser to go back)
 7. The payroll report will contain all the payroll data on all the files uploaded in the "uploads" folder.
 8. When no files are present, it will show a empty JSON report
+
+Note: The existing time-report-42 file is already present, thus pressing create report will show the JSON for that file.
 
 # Answers:
 1. I was able to create multiple files with csv to upload. I created a second file with an existing employeeId but with new period to see how it would merge. It passed my test case. I was also able to rest with various different entries of the file. I finally tested the upload and displaying of the JSON file, by uploading duplicate files it also passed the test case by giving me an error that the file already exists. 
