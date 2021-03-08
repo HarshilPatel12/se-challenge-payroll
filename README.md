@@ -216,3 +216,17 @@ Evaluation of your submission will be based on the following criteria.
    they explained?
 1. Did you separate any concerns in your application? Why or why not?
 1. Does your solution use appropriate data types for the problem as described?
+
+#How to Run:
+
+Dependencies: Please ensure Flask is installed, if not please install Flask in the directory where run.py file is present
+
+Use the following steps to run the code:
+1. Open the se-challenge-payroll director on terminal or powershell
+2. Run the python file run.py with command "python run.py"
+3. The run command wil provide a http local ip address, copy that and paste it in the browser
+4. The front end is in plain HTML, with 3 buttons, "Choose file", "Upload" and "Get Report"
+5. Choose the file to upload and press Upload, the file will only accept .csv format
+6. When the file is uploaded, you can press "Get Report" to redirected to a different page with the payroll report in JSON file
+7. The payroll report will contain all the payroll data on all the files uploaded in the "uploads" folder.
+8. When no files are present, it will show a empty JSON report
